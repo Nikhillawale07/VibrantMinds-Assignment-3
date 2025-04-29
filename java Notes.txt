@@ -1,0 +1,1704 @@
+//First java program
+
+public class program1{
+	public static void main(String[] args){
+	System.out.println("Welcome to my first java program:");
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------
+//Addition program
+
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	int b=20;
+	int c=a+b;
+	System.out.println(c);
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+//substraction program
+
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	int b=20;
+	int c=a-b;
+	System.out.println(c);
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+//pre-increment
+
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	System.out.println(++a);//51
+	System.out.println(a);//51
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+//pre-decrement
+
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	System.out.println(--a);//49
+	System.out.println(a);//49
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------
+post-increment
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	System.out.println(a++);//50
+	System.out.println(a);//51
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+Post-decrement
+public class program1{
+	public static void main(String[] args){
+	int a=50;
+	System.out.println(a--);//50
+	System.out.println(a);//49
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------
+//Addition of two numbers
+public class program1{
+	public static void main(String[] args){
+	int a=10;
+	int b=20;
+	int c=a+b;
+	System.out.println(c);
+
+	}
+    }
+---------------------------------------------------------------------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=10;
+	int b=20;
+	a=a+b;
+	System.out.println(a);
+
+	}
+    }
+
+------------------------------------------------------------------------------------------------------------------------
+//Multiplication of two numbers
+public class program1{
+	public static void main(String[] args){
+	int a=10;
+	int b=20;
+	a=a*b;
+	System.out.println(a);
+
+	}
+    }
+-----------------------------------------------------------------------------------------------------------------------------
+//Assignment operator
+public class program1{
+	public static void main(String[] args){
+	int a=10;
+	int b=a;
+	System.out.println(b);
+
+	}
+    }
+-----------------------------------------------------------------------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=60;
+	int b=35;
+	a+=b;
+	System.out.println(a);
+
+	}
+    }
+----------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=60;
+	int b=35;
+	a-=b;
+	System.out.println(a);
+
+	}
+    }
+--------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=6;
+	int b=6;
+	a*=b;
+	System.out.println(a);
+
+	}
+    }
+--------------------------------------------------------------------------
+//Relational operator
+
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	System.out.println(a>b);
+
+	}
+    }
+-----------------------------------------------------------------------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	System.out.println(a<b);
+
+	}
+    }
+----------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	System.out.println(a<=b);
+
+	}
+    }
+-------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	System.out.println(a>b);
+
+	}
+    }
+
+----------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	System.out.println(a!=b);
+
+	}
+    }
+-------------------------------------------------------
+
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	int c=40;
+	System.out.println((a<b)&&(c>b));
+
+	}
+    }
+---------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	int c=40;
+	System.out.println((a>b)||(c>b));
+
+	}
+    }
+---------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	int c=40;
+	System.out.println((a>b)||(c<b));
+
+	}
+    }
+----------------------------------------------------------------
+public class program1{
+	public static void main(String[] args){
+	int a=20;
+	int b=30;
+	int c=40;
+	System.out.println(!true);
+
+	}
+    }
+-----------------------------------------------------------
+2nd shift operator
+
+public class program1{
+	public static void main(String[] args){
+	int a=123;
+	System.out.println(a%10);
+	System.out.println((a/10)%10);
+
+	}
+    }
+
+-----------------------------------------------------------
+//write a program to find area of circle
+public class program1{
+	public static void main(String[] args){
+	int radius=10;
+	double pi=3.14,area;
+        area=pi*radius*radius;
+	 
+	System.out.println("Area of Circle:"+area);
+
+	}
+    }    
+--------------------------------------------------------------
+//write a program to find area of rectangle
+
+public class program1{
+	public static void main(String[] args){
+	int length=10;
+	int breadth=20;
+	int area=length*breadth;
+	System.out.println("Area of Rectangle:"+area);
+
+	}
+    }
+
+------------------------------------------------------------------
+//simple interest
+public class program1{
+	public static void main(String[] args){
+	int p=124;
+	int rate=75;
+	int t=12;
+	double si=(p*rate*t)/100;
+		
+
+	System.out.println("The simple interest is:"+si);
+
+	}
+    }
+---------------------------------------------------------------------------------------------------
+//compound interest 
+
+---------------------------------------------------------------------------------------------------
+
+class program1
+{
+   public static void main(String[] args){
+	int i=1;
+	for(i=1;i<=10;i=i+1){
+	System.out.println("10"+ "*" +i + "=" + " " + 10*i);
+
+	
+}
+  }
+} 
+
+---------------------------------------------------------------------------------------------------
+class program1
+{
+   public static void main(String[] args){
+	int i=10;
+	for(i=10;i>=1;i=i-1){
+	System.out.println("5"+ "*" +i + " =" + " " + 5*i);
+
+	
+}
+  }
+} 
+
+---------------------------------------------------------------------------------------------------------------
+//Pattern programming
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=1;
+		for(int i=5;i>=n;i--)
+		{
+			for(int j=1;j<=5;j++)
+			{
+				System.out.print(i);
+			}
+			System.out.println();
+		}			
+
+	}
+}
+
+------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		for(int i=1;i<=5;i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+----------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		for(int i=1,j=1;i<=10;i++,j++)
+		{
+			System.out.println("10 x "+i+"="+(10*i));
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)										
+	{	
+		for(int j=1;j<=5;j++)
+		{
+		for(int i=1;i<=5;i++)
+		{
+			System.out.print("*");	
+		}
+		System.out.println();
+	
+		}	
+	}
+}
+
+//output
+*****
+*****
+*****
+*****	
+*****
+
+---------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{	
+		for(int i=1;i<=5;i++)
+		{
+		for(int j=1;j<=5;j++)
+		{
+			System.out.print("*");	
+		}
+		System.out.print("  ");
+		for(int j=1;j<=5;j++)
+
+		{
+			System.out.print("*");
+		}
+		System.out.println();
+	
+		}	
+	}
+}
+
+//output
+*****  *****
+*****  *****
+*****  *****
+*****  *****
+*****  *****
+-------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=1;i<=5;i++)
+			{
+			System.out.print(j);
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+11111
+22222
+33333
+44444
+55555
+------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=5;j>=1;j--)
+		{
+			for(int i=1;i<=5;i++)
+			{
+			System.out.print(j);
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+55555
+44444
+33333
+22222
+11111
+-----------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=1;i<=5;i++)
+			{
+			System.out.print(i);
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+12345
+12345
+12345
+12345
+12345
+-------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=5;i>=1;i--)
+			{
+			System.out.print(i);
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+54321
+54321
+54321
+54321
+54321
+
+--------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=5;i>=1;i--)
+			{
+			System.out.print((char)+(64+j));
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+-------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=5;i>=1;i--)
+			{
+			System.out.print((char)+(70-j));
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+EEEEE
+DDDDD
+CCCCC
+BBBBB
+AAAAA
+---------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=1;i<=5;i++)
+			{
+			System.out.print((char)+(96+i));
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+abcde
+abcde
+abcde
+abcde
+abcde
+----------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	for(int j=1;j<=5;j++)
+		{
+			for(int i=5;i>=1;i--)
+			{
+			System.out.print((char)+(96+i));
+			}
+			System.out.println();
+		
+		}
+	}
+}
+
+//output
+
+edcba
+edcba
+edcba
+edcba
+edcba
+--------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int i=3;
+		while(i<=30)
+		{
+			System.out.println(i);
+			i=i+3;
+		}		
+	}
+}
+
+------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int i=1;
+		do
+		{
+			System.out.println(i);
+			i++;
+		}
+		while(i<=10);
+		
+	}
+}
+--------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int i=2;
+		do
+		{
+			System.out.println(i);
+			i=i+2;
+		}
+		while(i<=20);
+		
+	}
+}
+------------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print("*");	
+			}
+			System.out.println();
+		}		
+	}
+}
+----------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print(i);	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+1
+22
+333
+4444
+55555
+
+---------------------------------------------------------------------------------------------
+
+row=i
+
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print(i);	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+55555
+4444
+333
+22
+1
+
+--------------------------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print((char)+(96+i));	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+
+e
+dd
+ccc
+bbbb
+aaaaa
+-------------------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)	
+	{	int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(j);	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+
+1
+12
+123
+1234
+12345
+-----------------------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print(j);	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+5
+45
+345
+2345
+12345
+-------------------------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=5;i>=1;i--)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print((char)+(64+j));	
+			}
+			System.out.println();
+		}		
+	}
+}
+
+//output
+
+ABCDE
+ABCD
+ABC
+AB
+A
+-----------------------------------------------------------------------------------------------------------------------------
+//pattern programming
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j<=5;j++)
+			{
+				System.out.print("*");
+	
+			}	System.out.println();
+			
+
+		}
+			
+	}
+	
+}
+*
+**
+***
+****
+*****
+
+--------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(j);
+	
+			}	System.out.println();
+			
+
+		}
+			
+	}
+	
+}
+
+//
+1
+12
+123
+1234
+12345
+-------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{	int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(i);
+	
+			}	System.out.println();
+			
+
+		}
+			
+	}
+	
+}
+
+//output
+1
+22
+333
+4444
+55555
+-------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{		int n=5;
+		
+  			for(int i=n;i>=1;i--)
+  			{
+     			
+  				for(int j=n;j>=i;j--)
+				{
+  					System.out.print(j);
+				}
+				System.out.println();
+
+ 			}
+						
+
+		
+			
+	}
+	
+}
+
+//output
+5
+54
+543
+5432	
+54321
+
+-----------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{		int n=5;
+		
+  			for(int i=1;i<=n;i++)
+  			{
+     			
+  				for(int j=1;j<=i;j++ )
+				{
+  					System.out.print((char)(64+i));
+				}
+				System.out.println();
+
+ 			}
+						
+
+		
+			
+	}
+	
+}
+
+//output
+A
+BB
+CCC
+DDDD
+EEEEE
+
+------------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{		int n=5;
+		
+  			for(int i=1;i<=n;i++)
+  			{
+     			
+  				for(int j=1;j<=i;j++ )
+				{
+  					System.out.print((char)(102-i));
+				}
+				System.out.println();
+
+ 			}
+						
+
+		
+			
+	}
+	
+}
+//output
+e
+dd
+ccc
+bbbb
+aaaaa
+---------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{		int n=5;
+		
+  			for(int i=1;i<=n;i++)
+  			{
+     			
+  				for(int j=1;j<=i;j++ )
+				{
+  					System.out.print((char)(64+j));
+				}
+				System.out.println();
+
+ 			}
+						
+
+		
+			
+	}
+	
+}
+
+//output
+A
+AB
+ABC
+ABCD
+ABCDE
+--------------------------------------------------------------------------------------------------------------//pattern printing code
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=5;i>=1;i--)
+		{
+			for(int j=5;j>i;j--)
+			{
+				System.out.print(" ");
+			}
+				for(int j=1;j<=i;j++)
+				{
+					System.out.print(j);		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+
+//
+12345
+ 1234
+  123
+   12
+    1
+
+----------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=5;j>i;j--)
+			{
+				System.out.print(" ");
+			}
+				for(int j=1;j<=i;j++)
+				{
+					System.out.print(j);		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+
+//  1
+   12
+  123
+ 1234
+12345
+
+-------------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=5;i>=1;i--)
+		{
+			for(int j=i;j>1;j--)
+			{
+				System.out.print(" ");
+			}
+				for(int j=i;j<=n;j++)
+				{
+					System.out.print(j);		
+				}
+				System.out.println();
+					
+		}
+	}
+}
+
+//  5
+   45
+  345
+ 2345
+12345
+
+------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+				for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(64+i));		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+
+//  A
+   BB
+  CCC
+ DDDD
+EEEEE
+-------------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+				for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(102-i));		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+//
+    se
+   dd
+  ccc
+ bbbb
+aaaaa
+--------------------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+				for(int j=1;j<=i;j++)
+				{
+					System.out.print((char)(64+j));		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+
+// A
+   AB
+  ABC
+ ABCD
+ABCDE
+
+---------------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+				for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(96+j));		
+				}
+				System.out.println();
+			
+		}
+	}
+}
+
+//output
+    a
+   ba
+  cba
+ dcba
+edcba
+
+-------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j>=1;j--)
+			{	
+				System.out.print(count+"\t");
+				count--;
+			}
+			System.out.println();
+		
+		}
+
+	}
+
+}
+
+//output
+15
+14      13
+12      11      10
+9       8       7       6
+5       4       3       2       1
+-------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j>=1;j--)
+			{	
+				System.out.print(count+"\t");
+				count++;
+			}
+			System.out.println();
+		
+		}
+
+	}
+
+}
+
+//output
+1
+2       3
+4       5       6
+7       8       9       10
+11      12      13      14      15	
+
+------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+		{	
+			int c=count;
+			for(int j=i;j>=1;j--)
+			{	
+				System.out.print(c+"\t");
+				c--;
+			}
+			System.out.println();	
+			count+=i+1;
+		
+		}
+
+	}
+
+}
+
+//output
+1
+3       2
+6       5       4	
+10      9       8       7
+15      14      13      12      11
+
+--------------------------------------------------------------------------------------------------
+/*
+15	
+14	10
+13	9	6
+12	8	5	3
+11	7	4	2	1	
+*/
+class Main
+{	
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=n;i>=1;i--)
+		{	
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print(c+"\t");
+				c-=j-1;
+			}
+			System.out.println();
+			count--;		
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------
+/*
+11	
+12	7
+13	8	4
+14	9	5	2
+15	10	6	3	1
+*/
+class Main
+{	
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=(n*(n-1))/2+1;
+		for(int i=5;i>=1;i--)
+		{
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print(c+"\t");
+				c-=j;
+			}
+			System.out.println();
+			count++;
+		}
+		
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------
+/*
+1	
+6	2
+10	7	3
+13	11	8	4
+15	14	12	9	5
+*/
+class Main
+{	
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=5;i>=1;i--)
+		{
+			int c=count;
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print(c+"\t");
+				c-=j;
+			}
+			System.out.println();
+			count+=i;
+		}
+				
+	}
+}
+
+---------------------------------------------------------------------------------------------------
+
+/*
+5	
+4	9
+3	8	12
+2	7	11	14
+1	6	10	13	15
+*/
+class Main
+{	
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=5;
+		for(int i=n;i>=1;i--)
+		{	
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print(c+"\t");	
+				c+=j;
+			}
+			System.out.println();
+			count--;
+	
+		}
+		
+						
+	}
+}
+
+---------------------------------------------------------------------------------------------------
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;//10
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print((char)(64+count));
+				count++;
+			}
+			System.out.println();
+		}	
+	}
+}
+
+//output
+ABCDE
+FGHI
+JKL
+MN
+O
+---------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print((char)(64+count));
+				count--;
+			}
+			System.out.println();
+		}	
+	}
+}
+
+//output
+
+ONMLK
+JIHG
+FED
+CB
+A
+
+--------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=n;
+		for(int i=n;i>=1;i--)
+		{
+			int c=count;
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print((char)(64+c));
+				c--;
+			}
+			System.out.println();
+			count+=i-1;
+		}	
+	}
+}
+
+//output
+EDCBA
+IHGF
+LKJ
+NM
+O
+---------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=((n*(n-1))/2)+1;
+		for(int i=n;i>=1;i--)
+		{	
+			int c=count;
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print((char)(64+c));
+				c++;
+			}
+			System.out.println();
+			count-=i-1;
+		}
+	}
+}
+
+//output
+KLMNO
+GHIJ
+DEF
+BC
+A
+
+---------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+		{	
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print((char)(64+c));
+				c+=j;
+			}
+			System.out.println();
+			count++;
+		}
+	}
+}
+
+//output
+AFJMO
+BGKN
+CHL
+DI
+E
+
+---------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=n;
+		for(int i=1;i<=n;i++)
+		{	
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print((char)(64+c));
+				c+=j-1;
+			}
+			System.out.println();
+			count--;
+		}
+	}
+}
+
+//output
+
+EILNO
+DHKM
+CGJ
+BF
+A
+-------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=5;i>=1;i--)
+		{	for(int j=i;j>=1;j--)
+			{
+				System.out.print(" ");
+			}
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{
+				System.out.print((char)(64+c));
+				c+=j-1;
+			}
+			System.out.println();
+			count++;
+		}
+	}
+}
+
+//   A
+    BF
+   CGJ
+  DHKM
+ EILNO
+------------------------------------------------------------------------------------------------
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=1;
+		for(int i=n;i>=1;i--)
+		{	for(int j=i;j>=1;j--)
+			{
+				System.out.print(" ");
+			}
+			int c=count;
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print((char)(64+c));
+				c-=j;
+			}
+			System.out.println();
+			count+=i;
+		}
+	}
+}
+//  
+     A
+    FB
+   JGC
+  MKHD
+ ONLIE
+
+------------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=((n*(n-1))/2)+1;
+		for(int i=n;i>=1;i--)
+		{	
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+			int c=count;
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print((char)(64+c));
+				c++;
+			}
+			System.out.println();
+			count-=i-1;
+		}
+	}
+}
+
+//KLMNO
+ GHIJ
+  DEF1
+   BC
+    A
+
+---------------------------------------------------------------------------------------------
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int n=5;
+		int count=n;
+		for(int i=n;i>=1;i--)
+		{	
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(" ");
+			}
+			int c=count;
+			for(int j=i;j>=1;j--)
+			{
+				System.out.print((char)(64+c));
+				c--;
+			}
+			System.out.println();
+			count+=i-1;
+		}
+	}
+}
+//output
+EDCBA
+ IHGF
+  LKJ
+   NM
+    O
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
